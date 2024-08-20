@@ -1,0 +1,49 @@
+.featuredpostBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.entrepreneurshipCard{
+    display: flex;
+    padding: 32px;
+    border: 1px solid var(--neutral-tint-70);
+    border-radius: 10px;
+}
+
+.entrepreneurshipCard .cardLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 0 0 33%;
+    width: 33%;
+}
+
+.entrepreneurshipCard .entre{
+    padding: 3px 10px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #005929;
+    background-color: #E8FFEE;
+    width: 139px;
+    border-radius: 4px;
+    font-weight: 500
+}
+
+.entrepreneurshipCard h3{
+    font-size: 40px;
+    line-height: 48px;
+    width: 90%;
+}
+
+.entrepreneurshipCard .time{
+    color: var(--neutral-tint-50);
+}
+
+.entrepreneurshipCard .cardRight{
+    flex: 0 0 66%
+}
+
+.entrepreneurshipCard .cardRight Image{
+    object-fit: cover;
+    width: 100%;
+}

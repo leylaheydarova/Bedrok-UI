@@ -1,0 +1,58 @@
+:root{
+  /* colors */
+  /*neutral tint*/
+  --neutral-tint-0: #000000;
+  --neutral-tint-10: #17181C;
+  --neutral-tint-20: #2E3038;
+  --neutral-tint-30: #454854;
+  --neutral-tint-40: #5C6070;
+  --neutral-tint-50: #73778C;
+  --neutral-tint-60: #8F93A3;
+  --neutral-tint-70: #ABAEBA;
+  --neutral-tint-80: #C7C9D1;
+  --neutral-tint-90: #E3E4E8;
+  --neutral-tint-100: #ffffff;
+  
+  /*primary tint*/
+  --primary-tint-0: #CD1DA7;
+  --primary-tint-10: #D435B2;
+  --primary-tint-20: #D94ABA;
+  --primary-tint-30: #DD64C3;
+  --primary-tint-40: #E278CB;
+  --primary-tint-50: #E78DD4;
+  --primary-tint-60: #ECA7DD;
+  --primary-tint-70: #F1BCE5;
+  --primary-tint-80: #F5D1ED;
+  --primary-tint-90: #FAEAF7;
+
+  /* secondary tint */
+  --secondary-tint-0: #8BCF1E;
+  --secondary-tint-10: #97D435;
+  --secondary-tint-20: #A2D94B;
+  --secondary-tint-30: #AEDD62;
+  --secondary-tint-40: #B9E278;
+  --secondary-tint-50: #C5E78F;
+  --secondary-tint-60: #D1ECA5;
+  --secondary-tint-70: #DCF1BC;
+  --secondary-tint-80: #E8F5D2;
+  --secondary-tint-90: #F3FAE9;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body{
+  background-color: var(--neutral-tint-100);
+}
+
+.container{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
